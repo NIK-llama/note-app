@@ -1,9 +1,30 @@
-env/
+# Python cache
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+
+# Virtual environment folder
+env/
+
+# SQLite database files
+instance/*.db
+*.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Byte-compiled / optimized files
 *.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# OS-specific files
 .DS_Store
 Thumbs.db
-.vscode/
-.env
-instance/database.db
-*.db
